@@ -1,0 +1,1139 @@
+/* Create Variables For Colors */
+
+:root {
+    --blue1: #035db1;
+    --blue2: #0870d0;
+    --blue3: #035bad;
+    --white: #f3eeee;
+    --red: #9e0e1a;
+    --red2: #880611;
+    --black: #22252A;
+    --black2: #22272a;
+    --backgroung: linear-gradient(90deg, #a1c4fd 10%, #c2e9fb 90%);
+    --s: #434040;
+}
+
+@font-face {
+    font-family: "Playwrite Cuba";
+    src: url("../fonts/Playwrite\ Cuba.ttf");
+}
+
+.subtopic {
+    color: var(--blue2);
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.tabtxt {
+    color: var(--blue2) !important;
+}
+
+.txt3 {
+    color: var(--black) !important;
+    font-size: 18px;
+}
+
+
+/* Create Variables For Colors */
+
+
+
+/* ------- Index Page ------- */
+.body {
+    background-image: var(--backgroung);
+    color: var(--white);
+}
+
+.logo {
+    background-image: url("../resources/logo.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 60px;
+}
+
+.txt1 {
+    font-family: "Playwrite Cuba";
+    font-size: 20px;
+    font-weight: 700;
+    color: var(--blue1);
+}
+
+.indexuserprofilebackground input {
+    background-color: var(--white);
+    color: #22252A;
+    border: var(--blue3) 2px solid;
+}
+
+.indexuserprofilebackground select {
+    background-color: var(--white);
+    color: #22252A;
+    border: var(--blue3) 2px solid;
+}
+
+.indexuserprofilebackground label {
+    color: var(--blue3);
+}
+
+.txt2 {
+    font-size: 24px;
+    font-weight: bold;
+    color: var(--blue2);
+}
+
+.changeviewbtn {
+    background-color: var(--blue2);
+    color: var(--white) !important;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.changeviewbtn:hover {
+    background-color: var(--blue1);
+    color: var(--white);
+    border: var(--blue2) 1px solid;
+}
+
+#msgdiv1 {
+    margin: 0;
+    padding: 0;
+}
+/* ------- Index Page ------- */
+
+/* ------- Index Page Modal ------- */
+.modalheader {
+    background-color: var(--blue2) !important;
+    color: var(--white) !important;
+}
+
+.modalbody {
+    background-image: var(--backgroung);
+    color: var(--white) !important;
+}
+
+.modalfooter {
+    background-color: var(--blue2) !important;
+    color: var(--white) !important;
+}
+
+.modalfooterbtn {
+    background-color: var(--blue2) !important;
+    color: var(--white) !important;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.modalfooterbtn:hover {
+    background-color: var(--white) !important;
+    color: var(--blue2) !important;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+    outline: none;
+    box-shadow: none;
+}
+
+.modalgroupbtn {
+    background-color: var(--blue2) !important;
+    color: var(--white) !important;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.modalgroupbtn:hover {
+    background-color: var(--white) !important;
+    color: var(--blue2) !important;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+    outline: none;
+    box-shadow: none;
+}
+
+.modalclosebtn {
+    background-color: var(--blue2) !important;
+    color: var(--white) !important;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+/* ------- Index Page Modal ------- */
+
+
+/* ------ Pagination ------ */
+
+.flex {
+    -webkit-box-flex: 1;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto
+}
+
+@media (max-width:991.98px) {
+    .padding {
+        padding: 1.5rem;
+    }
+}
+
+@media (max-width:767.98px) {
+    .padding {
+        padding: 1rem;
+    }
+}
+
+.padding {
+    padding: 5rem;
+}
+
+
+
+.pagination,
+.jsgrid .jsgrid-pager {
+    display: flex;
+    padding-left: 0;
+    list-style: none;
+    border-radius: 0.25rem;
+}
+
+.page-link {
+    color: black;
+}
+
+.pagination.pagination-rounded-flat .page-item {
+    margin: 0 .25rem;
+}
+
+.page-item:hover {
+    cursor: pointer;
+}
+
+
+.page-item.active .page-link {
+    background: var(--blue2);
+    border-color: var(--blue2);
+}
+
+.pagination.pagination-rounded-flat .page-item .page-link,
+a {
+    border: none;
+    border-radius: 50px;
+}
+
+/* ------ Pagination ------ */
+
+/* ------- Header ------- */
+.headerlinks li a:hover {
+    color: var(--blue2);
+}
+
+.headerdropdownli {
+    background-color: var(--black) !important;
+    color: var(--white) !important;
+    width: 300px !important;
+}
+
+.headerdropdownli img {
+    width: 130px;
+    height: 75px;
+}
+
+.headerdropdownli p {
+    font-size: 15px;
+    margin-bottom: 5px;
+}
+
+.headerdropdownli a {
+    color: var(--white) !important;
+}
+
+.headerdropdownli a:hover {
+    background-color: var(--black2) !important;
+    color: var(--blue2) !important;
+}
+
+.usernamecolor {
+    color: var(--blue2) !important;
+}
+
+.contactusModal input {
+    background-color: var(--white);
+    color: #22252A;
+    border: var(--blue3) 2px solid;
+}
+
+.contactusModal textarea {
+    background-color: var(--white);
+    color: #22252A;
+    border: var(--blue3) 2px solid;
+}
+
+.contactusModal select {
+    background-color: var(--white);
+    color: #22252A;
+    border: var(--blue3) 2px solid;
+}
+
+.contactusModal label {
+    color: var(--blue3);
+}
+
+.contactusModaldisabled {
+    background-color: #cccccc !important;
+    color: #22252A !important;
+    border: #cccccc 2px solid !important;
+}
+/* ------- Header ------- */
+
+/* ------ Footer ------ */
+.footer-body {
+    background-color: var(--black);
+    padding: 15px;
+    color: var(--white);
+}
+
+.socialicons li a i:hover {
+    color: var(--blue2);
+    transition: color 0.3s ease;
+}
+
+.footertopic {
+    color: var(--blue2);
+    margin-bottom: 10px;
+}
+/* ------ Footer ------ */
+
+/* ---------- Search Panel With Category ---------- */
+
+.searchbtn {
+    background-color: var(--blue2) !important;
+    color: var(--white) !important;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.searchbtn:hover {
+    background-color: var(--blue1) !important;
+    color: var(--white);
+}
+
+.searchpanel input {
+    background-color: var(--white);
+    color: #22252A;
+}
+
+.searchpanel select {
+    background-color: var(--white);
+    color: #22252A;
+    appearance: none;
+}
+
+/* ---------- Search Panel With Category ---------- */
+
+/* ---------- Product Card ---------- */
+
+.overlay {
+    display: inline-block;
+    opacity: 0;
+    position: absolute;
+    top: 5%;
+    margin-left: 0;
+    width: 70px;
+    padding: auto;
+}
+
+.cardtop:hover .overlay {
+    opacity: 1;
+    transition: opacity 0.3s ease;
+    margin-left: 0;
+}
+
+.cardtop img {
+    opacity: 0.6;
+    width: 100%;
+    height: 100%;
+}
+
+.overlay button {
+    background: transparent !important;
+    border: none !important;
+    box-shadow: none !important;
+    color: var(--black);
+    font-size: 20px !important;
+}
+
+.close {
+    display: inline-block;
+    opacity: 1;
+    position: absolute;
+    top: 5%;
+    right: -5%;
+    width: 70px;
+    padding: auto;
+}
+
+.close button {
+    background: transparent !important;
+    border: none !important;
+    box-shadow: none !important;
+    color: var(--black);
+    font-size: 20px !important;
+}
+
+.close button:hover {
+    color: var(--blue1);
+}
+
+@media(min-width: 992px) {
+    .overlay button {
+        background: transparent !important;
+        border: none !important;
+        box-shadow: none !important;
+        color: var(--black);
+        font-size: 30px !important;
+    }
+
+    .overlay {
+        display: inline-block;
+        opacity: 0;
+        position: absolute;
+        top: 5%;
+        margin-left: 0;
+        width: 70px;
+        padding: auto;
+    }
+
+    .cardtop:hover .overlay {
+        opacity: 1;
+        transition: opacity 0.3s ease;
+        margin-left: 0;
+    }
+
+}
+
+.overlay button:hover {
+    color: var(--blue1);
+}
+
+/* ---------- Product Card ---------- */
+
+/* ---------- Home Page ---------- */
+
+.homebackground {
+    background-image: linear-gradient(90deg, #a1c4fd 10%, #c2e9fb 90%);
+}
+
+.carouselbody img {
+    width: 100% !important;
+    height: 600px !important;
+    border-radius: 10px !important;
+    opacity: 0.8 !important;
+}
+
+.brandimages img {
+    cursor: auto !important;
+    width: 100% !important;
+    height: 100% !important;
+}
+
+/* ---------- Home Page ---------- */
+
+/* Single Peoduct View Page */
+
+.mainimage {
+    width: 70% !important;
+    margin-left: 15%;
+    margin-right: 15%;
+    height: auto !important;
+    object-fit: cover;
+}
+
+.colorshower {
+    margin-left: 10px !important;
+    height: 20px !important;
+    width: 20px !important;
+    border: none !important;
+    border-radius: 50% !important;
+}
+
+.brandimage img {
+    width: 120px !important;
+    height: auto !important;
+    margin-right: 10px !important;
+}
+
+.btnbuynow {
+    background-color: var(--blue2) !important;
+    color: var(--white) !important;
+    padding: 10px 20px !important;
+    border-radius: 5px !important;
+    cursor: pointer;
+    width: 200px;
+}
+
+.btnbuynow:hover {
+    background-color: var(--blue1) !important;
+    color: var(--white);
+}
+
+.btnaddtocart {
+    background-color: var(--blue2) !important;
+    color: var(--white) !important;
+    padding: 10px 20px !important;
+    border-radius: 5px !important;
+    cursor: pointer;
+    width: 200px;
+}
+
+.btnaddtocart:hover {
+    background-color: var(--blue1) !important;
+    color: var(--white);
+}
+
+.btnwatchlist {
+    background-color: var(--red) !important;
+    color: var(--white) !important;
+    padding: 10px 20px !important;
+    border-radius: 5px !important;
+    cursor: pointer;
+    width: 200px;
+}
+
+.btnwatchlist:hover {
+    background-color: var(--red2) !important;
+    color: var(--white);
+}
+
+.stars i {
+    cursor: pointer;
+}
+
+.feedbacksubmitbtn {
+    background-color: var(--blue2) !important;
+    color: var(--white) !important;
+    padding: 10px 20px !important;
+    border-radius: 10px !important;
+    cursor: pointer;
+}
+
+.feedbacksubmitbtn:hover {
+    background-color: var(--blue1) !important;
+    color: var(--white);
+}
+
+/* Single Peoduct View Page */
+
+
+
+/* Advanced Search Page */
+
+.filterbrand img {
+    width: 70px !important;
+    height: 40px !important;
+    cursor: pointer;
+}
+
+.filtertopics {
+    color: var(--blue3);
+}
+
+.filterbackground {
+    background-color: var(--white);
+    margin-bottom: 10px !important;
+}
+
+.slider {
+    height: 5px;
+    border-radius: 5px;
+    background: #ddd;
+    position: relative;
+}
+
+.slider .progress {
+    height: 5px;
+    left: 0%;
+    right: 0%;
+    position: absolute;
+    border-radius: 5px;
+    background: var(--blue1);
+}
+
+.range-input {
+    position: relative;
+}
+
+.range-input input {
+    position: absolute;
+    top: -5px;
+    height: 5px;
+    width: 100%;
+    background: none;
+    pointer-events: none;
+    -webkit-appearance: none;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+    height: 17px;
+    width: 17px;
+    border-radius: 50%;
+    pointer-events: auto;
+    -webkit-appearance: none;
+    background: var(--blue1);
+}
+
+input[type="range"]::-moz-range-thumb {
+    height: 17px;
+    width: 17px;
+    border: none;
+    border-radius: 50%;
+    pointer-events: auto;
+    -moz-appearance: none;
+    background: var(--blue1);
+}
+
+.pricerangefilterbtn {
+    background-color: var(--blue2);
+    color: var(--white);
+    border: none;
+    padding: 5px 30px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.pricerangefilterbtn:hover {
+    background-color: var(--blue1);
+    color: var(--white);
+}
+
+.dropdownbtnsort {
+    background-color: var(--blue2);
+    color: var(--white);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.dropdownbtnsort:hover {
+    background-color: var(--blue1);
+    color: var(--white);
+}
+
+/* User Profile Page */
+
+.userprofilebackground {
+    background-image: linear-gradient(90deg, #a1c4fd 10%, #c2e9fb 90%);
+}
+
+.profileimage {
+    width: 60% !important;
+    height: 200px !important;
+    /* border-radius: 50%; */
+    border: 5px solid var(--blue1);
+    margin-bottom: 10px;
+}
+
+.borderform {
+    background-image: linear-gradient(45deg, #c2e9fb 15%, #a1c4fd 76%);
+    border-radius: 10px;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.userprofilebackground input {
+    background-color: var(--white);
+    color: #22252A;
+    border: var(--blue3) 2px solid;
+}
+
+.userprofilebackground label {
+    color: var(--blue3);
+}
+
+.userprofilebackgrounddisabled {
+    background-color: #cccccc !important;
+    color: #22252A !important;
+    border: #cccccc 2px solid !important;
+}
+
+.updateuserprofilebtn {
+    background-color: var(--blue2);
+    color: var(--white) !important;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.updateuserprofilebtn:hover {
+    background-color: var(--blue1) !important;
+    color: var(--white) !important;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+    border: var(--blue3) 1px solid;
+}
+
+.deleteuserprofile {
+    background-color: var(--red) !important;
+    color: var(--white) !important;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.deleteuserprofile:hover {
+    background-color: var(--red) !important;
+    color: var(--white) !important;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+    border: var(--red) 1px solid;
+}
+
+/* User Profile Page */
+
+
+/* ------- Watchlist Page ------- */
+
+.empty-design {
+    background-color: var(--white);
+    text-align: center;
+    padding: 30px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.iconforemptyview {
+    font-size: 300px;
+    color: var(--blue2);
+}
+
+.shopnowbtn {
+    background-color: var(--blue2);
+    color: var(--white) !important;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.sortdropdownul li {
+    cursor: pointer;
+}
+
+.shopnowbtn:hover {
+    background-color: var(--blue1) !important;
+    color: var(--white) !important;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+    border: var(--blue3) 1px solid;
+    text-decoration: none;
+}
+
+/* ------- Watchlist Page ------- */
+
+/* Cart Page */
+
+.tables {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px !important;
+}
+
+.tables img {
+    width: 150px;
+    height: auto !important;
+    ;
+}
+
+.tables td,
+.tables th {
+    padding: 12px 15px;
+    text-align: center;
+    font-size: 16px;
+}
+
+.tables th {
+    background-color: var(--blue2) !important;
+    color: var(--white) !important;
+}
+
+.set_quantity {
+    width: 120px !important;
+    text-align: center;
+}
+
+
+.set_quantity button {
+    background-color: var(--blue2);
+    color: var(--white) !important;
+    border: none;
+    padding: 5px 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.set_quantity button:hover {
+    background-color: var(--blue3) !important;
+    color: var(--white) !important;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+}
+
+.set_quantity input::-webkit-outer-spin-button,
+.set_quantity input::-webkit-inner-spin-button {
+    text-align: center !important;
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.removecartbtn {
+    color: var(--blue2);
+    border: none;
+    cursor: pointer;
+}
+
+.removecartbtn:hover {
+    color: var(--red) !important;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+}
+
+.summerylist {
+    font-size: 13px !important;
+}
+
+@media (max-width: 768px) {
+
+    .tables th {
+        display: none;
+    }
+
+    .tables,
+    .tables tbody,
+    .tables tr,
+    .tables td {
+        display: block;
+        width: 100%;
+    }
+
+    .tables tr {
+        margin-bottom: 15px;
+    }
+
+    .tables td {
+        text-align: right;
+        padding-left: 50%;
+        text-align: right;
+        position: relative;
+    }
+
+    .tables td::before {
+        content: attr(data-label);
+        position: absolute;
+        left: 0;
+        width: 50%;
+        padding-left: 15px;
+        font-size: 15px;
+        font-weight: bold;
+        text-align: left;
+    }
+
+    .set_quantity {
+        /* margin-left: 250px !important; */
+        position: relative;
+        right: 0%;
+        left: 70%;
+    }
+}
+
+.checkoutbtn {
+    background-color: var(--blue2);
+    color: var(--white) !important;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.checkoutbtn:hover {
+    background-color: var(--blue1) !important;
+    color: var(--white) !important;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+    border: var(--blue3) 1px solid;
+    text-decoration: none;
+}
+
+
+/* Add New Product Page */
+
+.addnewproductbtn {
+    background-color: #0870d0;
+    color: var(--white) !important;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.addnewproductbtn:hover {
+    background-color: #035bad !important;
+    color: var(--white) !important;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+    border: var(--blue3) 1px solid;
+}
+
+.uploadproductimagesbtn {
+    background-color: #0870d0;
+    color: var(--white) !important;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.uploadproductimagesbtn:hover {
+    background-color: var(--blue3) !important;
+    color: var(--white) !important;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+    border: var(--blue3) 1px solid;
+}
+
+.addproduct label {
+    color: var(--blue3);
+    font-size: 16px;
+}
+
+.addproduct input {
+    background-color: var(--white);
+    color: #22252A;
+    border: var(--blue3) 2px solid;
+}
+
+.addproduct span {
+    background-color: var(--white);
+    color: #22252A;
+    border: var(--blue3) 2px solid;
+}
+
+.addproduct select {
+    background-color: var(--white);
+    color: #22252A;
+    border: var(--blue3) 2px solid;
+}
+
+.addproduct textarea {
+    background-color: var(--white);
+    color: #22252A;
+    border: var(--blue3) 2px solid;
+}
+
+.addproductbody {
+    background-image: linear-gradient(90deg, #a1c4fd 10%, #c2e9fb 90%);
+}
+
+.addproduct {
+    background-image: linear-gradient(45deg, #c2e9fb 15%, #a1c4fd 76%);
+    border-radius: 10px;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.colorlabel {
+    color: var(--blue3);
+    font-size: 14px !important;
+    cursor: pointer;
+}
+
+.colorchangelabel {
+    color: var(--blue3);
+}
+
+.productimages {
+    border: none;
+}
+
+/* Add New Product Page */
+
+/* -------- Invoice -------- */
+
+.tableinvoice {
+    width: 100%;
+    margin-bottom: 20px !important;
+}
+
+.tableinvoice tr,
+td {
+    padding: 12px 15px;
+    text-align: center;
+}
+
+.tableinvoice th {
+    background-color: var(--blue2) !important;
+    color: var(--white) !important;
+}
+
+.tableinvoice tfoot td {
+    padding: 12px 15px;
+    border: none;
+}
+
+.subtotal,
+.shipping,
+.total {
+    font-weight: bold;
+}
+
+.exporttopdf {
+    background-color: var(--blue2);
+    color: var(--white);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px !important;
+    text-decoration: none;
+}
+
+.exporttopdf:hover {
+    background-color: var(--blue3);
+    color: var(--white);
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.printinvoice {
+    background-color: var(--blue2);
+    color: var(--white);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px !important;
+    text-decoration: none;
+}
+
+.printinvoice:hover {
+    background-color: var(--blue3);
+    color: var(--white);
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+/* -------- Invoice -------- */
+
+/* -------- Billing History -------- */
+
+.viewinvoicebtn {
+    background-color: var(--blue2) !important;
+    color: var(--white) !important;
+    padding: 8px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.viewinvoicebtn:hover {
+    background-color: var(--blue3) !important;
+    color: var(--white) !important;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.invoicescards {
+    border-radius: 10px !important;
+}
+
+/* -------- Billing History -------- */
+
+/* -------- Admin Dashboard -------- */
+
+.dashboardusers {
+    font-size: 50px !important;
+    color: var(--blue3) !important;
+    margin-bottom: 20px !important;
+    padding-top: 20px !important;
+}
+
+.totalearnings {
+    font-size: 50px !important;
+    color: var(--blue3) !important;
+    margin-bottom: 20px !important;
+    padding-top: 20px !important;
+}
+
+.totalsellings{
+    font-size: 50px !important;
+    color: var(--blue3) !important;
+    margin-bottom: 20px !important;
+    padding-top: 20px !important;
+}
+
+.custom-tooltip {
+    --bs-tooltip-bg: var(--blue3) !important;
+    --bs-tooltip-color: var(--white) !important;
+}
+
+.dashboardimg{
+    margin-left: 200px !important;
+}
+
+/* -------- Admin Dashboard -------- */
+
+/* -------- Manage Users -------- */
+
+.btnmanageusers{
+    background-color: var(--blue2) !important;
+    color: var(--white) !important;
+    padding: 8px 20px;
+    cursor: pointer;
+    text-decoration: none;
+    border: none !important;
+}
+
+.btnmanageusers:hover{
+    background-color: var(--blue3) !important;
+    color: var(--white) !important;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+    text-decoration: none;
+    border: none !important;
+}
+
+.seemsgbtnmanageusers{
+    background-color: var(--red) !important;
+    color: var(--white) !important;
+    padding: 8px 20px;
+    border: none !important;
+    cursor: pointer !important;
+    text-decoration: none !important;
+}
+
+.seemsgbtnmanageusers:hover{
+    background-color: var(--red2) !important;
+    color: var(--white) !important;
+    transition: background-color 0.3s ease !important;
+    cursor: pointer !important;
+    text-decoration: none !important;
+    border: none !important;
+}
+
+.manageuserspage{
+    width: 100%;
+    height: 66vh !important;
+    overflow-y: none !important;
+}
+
+/* -------- Manage Users -------- */
